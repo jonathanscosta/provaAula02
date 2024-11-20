@@ -86,3 +86,91 @@ if ( palavra in frase):
 
 else:
     print(f' a palavra {palavra} não está na frase')'''
+
+#ver se um número é par ou impar
+
+'''usuario = int(input('digite um número:  '))
+if (usuario %2==0):
+    print (' seu número é par')
+else:
+    print (' seu número é impar')'''
+
+# verificar aprovação de um aluno com nota maior que 6
+'''nota1trimestre = int(input('qual sua primeira nota?'))
+nota2trimestre = int(input('qual sua segunda nota?'))
+nota3trimestre = int(input('qual sua terceira nota?'))
+nota4trimestre = int(input('qual sua quarta nota?'))
+
+notaFinal = (nota1trimestre + nota2trimestre + nota3trimestre + nota4trimestre)/4
+
+if (notaFinal >=6):
+    print ('aluno passou')
+else:
+    print ('aluno não passou')'''
+
+#ver se o número é par ou impar e se é negativo ou positivo
+
+'''numero = float (input ('digite seu número'))
+
+if ( numero > 0):
+    sinal = "positivo"
+elif (numero <0):
+    sinal = 'negativo'
+else:
+    sinal = 'zero'
+if (numero %2 == 0):
+    par_impar = 'par'
+else:
+    par_impar = 'impar
+
+    
+    
+print (f'o número {numero} é {par_impar} e {sinal}')'''
+
+#calcular o imc ( p.s esse deu trabalho kkk)
+
+'''peso = float (input ('digite seu peso   '))
+altura = float (input(' digite sua altura  '))
+
+imc = peso / (altura ** 2)
+
+print (f'o seu imc é {imc:.2f}')
+
+if (imc < 18.5):
+    print (' você está abaixo do peso')
+elif (18.5 <= imc < 24.9):
+    print (' você tem um peso normal')
+elif (24.9 <= imc < 29.9):
+    print (' você está acima do peso')
+elif ( 30 <= imc <34.9):
+    print (' você é obeso')
+else:
+    print (' vai já papocar com linha e tudo')'''
+
+# login simples login: admin e senha: 1234
+
+
+
+'''login = input(' login   ')
+senha = input(' senha   ')
+
+if ( login == 'admin' and senha == '1234'):
+    print(' acesso liberado')
+else:
+    print (' acesso negado')'''
+
+# verificar se um desconto pode ser aplicado somente a partir de 10 unidades
+
+valorProduto = float (input (' qual o valor do produto?    '))
+quantidadeProduto = float (input (' quantas unidades do produto?    '))
+desconto = 10/100
+
+
+if (quantidadeProduto >=10):
+
+    valorProduto -= valorProduto * desconto
+    print(f'o valor do produto é {valorProduto:.2f}')
+
+
+else:
+   print(f'o valor do produto é {valorProduto:.2f}')
