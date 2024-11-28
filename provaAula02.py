@@ -1,8 +1,12 @@
-numero = float(input(' digite seu número   '))
+
+#identifique se o número é positivo negativo ou zero
+
+numero = float(input(' digite um número   '))
 
 if(numero > 0):
-    print('seu número é positivo')
+    print(f'o número {numero:.0f} é positivo')
 elif (numero < 0 ):
-    print (' seu número é negativo')
+    print (f' o número {numero:.0f} é negativo')
 else:
-    print (' seu nuúmero é zero')
+    print (f' o número {numero:.0f} é zero')
+
